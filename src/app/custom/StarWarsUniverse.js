@@ -15,6 +15,5 @@ export default class StarWarsUniverse{
             let entity = new Entity(k, v)
             this.entities.push(entity)
         }
-        console.log(this.entities)
     }
 }
